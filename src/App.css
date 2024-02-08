@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*, *::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.heading {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.card-heading {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 40px;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.author {
+    font-style: italic;
+}
+.category {
+    font-weight: 600;
+    text-decoration: underline;
+    color:black;
+
+}
+.para-1, .para-2 {
+    margin-block: 4px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.para-3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0px 8px 0px;
+}
+.tag {
+    color: #1d4ed8;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.btn {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid #E0E0E0;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+.page-info {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 906px);
+}
+.footer-section-wrapper {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.card-container {
+    width: calc(100vw - 906px);
+    margin-block: 70px;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn:first-of-type{
+    margin-right: 10px;
+}
+.spinner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.spinner-section-para {
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.flex {
+    display: flex;
+}
+.page {
+    margin-top: 50px;
+}
+.tagColor {
+    color: #1d4ed8;
+}
+.related-post {
+    margin-top: 50px;
+}   
